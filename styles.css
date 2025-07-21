@@ -1,0 +1,77 @@
+/* PCREPAIRSHOP.css */
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: large;
+    color:powderblue;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 110%;
+    text-shadow: black 1px 1px 2px, black -1px -1px 2px, black 1px -1px 2px, black -1px 1px 2px;
+} 
+body {
+    background-image: url("Background10.jpg");
+    background-color: forestgreen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    text-align:start
+
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 18px;
+    margin-right: 20px;
+
+}
+
+.repair-shop {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+h2 {
+    color: lime;
+    width: 50%;
+    margin: 0 auto;
+    font-family:fantasy, sans-serif;
+    text-align: center;
+}
+h3 {
+    color:indianred;
+    font-family: fantasy, sans-serif;
+    text-align: center;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows wrapping on small screens */
+    gap: 40px;
+    /* Spacing between columns */
+    justify-content: flex-start;
+    /* Align left or use center if preferred */
+    padding: 20px;
+}
+
+.services ul {
+    flex: 1 1 400px;
+    /* Min width 400px, grow/shrink naturally */
+    margin: 0;
+    padding: 0;
+    list-style: disc inside;
+}
+.service-item {
+    font-size: large;
+    font-weight: bold;
+    color: darkorange;
+    margin-bottom: 10px;
+}
